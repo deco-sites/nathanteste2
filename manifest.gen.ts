@@ -97,8 +97,10 @@ const manifest = {
     "deco-sites/nathanteste2/sections/Images/ShoppableBanner.tsx": $$$$$$28,
     "deco-sites/nathanteste2/sections/Links/LinkTree.tsx": $$$$$$29,
     "deco-sites/nathanteste2/sections/Links/Shortcuts.tsx": $$$$$$30,
-    "deco-sites/nathanteste2/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$31,
-    "deco-sites/nathanteste2/sections/Miscellaneous/CookieConsent.tsx": $$$$$$32,
+    "deco-sites/nathanteste2/sections/Miscellaneous/CampaignTimer.tsx":
+      $$$$$$31,
+    "deco-sites/nathanteste2/sections/Miscellaneous/CookieConsent.tsx":
+      $$$$$$32,
     "deco-sites/nathanteste2/sections/Miscellaneous/Slide.tsx": $$$$$$33,
     "deco-sites/nathanteste2/sections/Newsletter/Newsletter.tsx": $$$$$$34,
     "deco-sites/nathanteste2/sections/Product/ImageGalleryFrontBack.tsx":

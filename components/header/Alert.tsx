@@ -15,11 +15,27 @@ function Alert({ alerts = [], interval = 5 }: Props) {
   const id = useId();
 
   return (
-    <div id={id}>
-      <Slider class="carousel carousel-center w-screen bg-secondary gap-6">
+    <div
+      id={id}
+      class="flex justify-start bg-[#025a44] text-gray-100 max-h-9 gap-4 p-96"
+    >
+      <img
+        src="https://www.granado.com.br/static/version1710169308/frontend/Nectar/granado/pt_BR/images/logo-granado.svg"
+        class="max-w-28 bg-[#004030] ml-11"
+        alt=""
+      />
+      <img
+        src="https://www.granado.com.br/static/version1710169308/frontend/Nectar/granado/pt_BR/images/logo-phebo.svg"
+        class="max-w-[72px]"
+        alt=""
+      />
+      <Slider class="carousel carousel-center bg-[#025a44]">
         {alerts.map((alert, index) => (
-          <Slider.Item index={index} class="carousel-item">
-            <span class="text-sm text-secondary-content flex justify-center items-center w-screen h-[38px]">
+          <Slider.Item
+            index={index}
+            class="carousel-item flex justify-center items-center w-screen -ml-64"
+          >
+            <span class="font-poppins font-thin text-sm max-h-9 text-gray-200]">
               {alert}
             </span>
           </Slider.Item>
